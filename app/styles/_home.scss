@@ -1,0 +1,18 @@
+.home-view{
+	.logo{
+		text-align: center;
+		img{
+			width: 100px;
+			height: 100px;
+		}
+	}
+	h2{
+		text-transform: uppercase;
+		text-align: center;
+	}
+	section{
+		float: left;
+		width: calc(100% / 3);
+		padding: 10px;
+	}
+}

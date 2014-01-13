@@ -1,0 +1,23 @@
+@import "bootstrap-sass/lib/bootstrap";
+@import "home";
+@import "navigation";
+
+body{
+	font-family: 'Exo 2', sans-serif;
+	background-image: url('../images/clean_textile.png');
+	background-size: 420px 420px;
+}
+
+h1, h2{
+	font-family: 'Lobster', cursive;
+}
+
+.center{
+	text-align:center;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	body{
+		background-image: url('../images/clean_textile_@2X.png');
+	}
+}
