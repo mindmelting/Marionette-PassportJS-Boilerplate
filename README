@@ -1,0 +1,11 @@
+#Marionette-PassportJS-Boilerplate
+
+```JavaScript
+brew install mongodb 
+mongod
+brew install phantomjs
+npm install -g grunt-cli bower mocha-phantomjs
+npm install
+bower install
+grunt
+```
